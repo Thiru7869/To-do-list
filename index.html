@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-92a1d.appspot.com/o/WhatsApp%20Image%202024-09-22%20at%2016.00.28_4ab51bef.jpg?alt=media&token=690fffcc-cd47-4cc8-b989-03490f886f35" alt="Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="todo-container">
+        <ul id="todoList">
+            <li><span>Go to gym</span><input type="checkbox" onclick="strikeItem(this)"></li>
+            <li><span>Study for exams</span><input type="checkbox" onclick="strikeItem(this)"></li>
+            <li><span>Buy groceries</span><input type="checkbox" onclick="strikeItem(this)"></li>
+            <li><span>Complete project</span><input type="checkbox" onclick="strikeItem(this)"></li>
+            <li><span>Attend meeting</span><input type="checkbox" onclick="strikeItem(this)"></li>
+            <li><span>Clean the house</span><input type="checkbox" onclick="strikeItem(this)"></li>
+            <li><span>Call mom</span><input type="checkbox" onclick="strikeItem(this)"></li>
+            <li><span>Pay bills</span><input type="checkbox" onclick="strikeItem(this)"></li>
+            <li><span>Read a book</span><input type="checkbox" onclick="strikeItem(this)"></li>
+            <li><span>Go for a walk</span><input type="checkbox" onclick="strikeItem(this)"></li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

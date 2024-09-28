@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/portfolio-92a1d.appspot.com/o/WhatsApp%20Image%202024-09-22%20at%2016.00.28_4ab51bef.jpg?alt=media&token=690fffcc-cd47-4cc8-b989-03490f886f35');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    width: 60px;
+    height: auto;
+    margin-bottom: 20px; 
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: whitesmoke;
+    font-size: 18px;
+    text-decoration: none; 
+    font-weight: 700;
+}
+
+.nav-links a:hover{
+    color:black;
+}
+
+.todo-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 0px;
+    top: 0;
+}
+
+.todo-container{
+    bottom: auto;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 18px;
+    color: black;
+}
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: white;
+}
+
+.strike span {
+    text-decoration: line-through;
+    color: gray;
+}
